@@ -7,4 +7,4 @@ categories: diary
 
 測試中文內容 123 abc 讓這段字變長一點
 
-![center-aligned-image](/images/_CSC0216.JPG){: .align-center}
+![center-aligned-image](/images/CSC0216.JPG){: .align-center}
