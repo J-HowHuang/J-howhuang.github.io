@@ -1,6 +1,6 @@
-- title: Home
+- title: 所有文章
   url: /
-- title: Posts
-  url: /posts/
-- title: Categories
-  url: /categories/
+- title: 系列
+  url: /categories
+- title: 起源
+  url: /intro/

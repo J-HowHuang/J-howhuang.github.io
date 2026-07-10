@@ -210,13 +210,6 @@ GEM
     jekyll-theme-slate (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-so-simple (3.2.0)
-      jekyll (>= 3.6, < 5.0)
-      jekyll-feed (~> 0.1)
-      jekyll-gist (~> 1.4)
-      jekyll-paginate (~> 1.1)
-      jekyll-seo-tag (~> 2.4)
-      jekyll-sitemap (~> 1.3)
     jekyll-theme-tactile (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
@@ -317,7 +310,6 @@ DEPENDENCIES
   github-pages (~> 232)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
-  jekyll-theme-so-simple
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1)
@@ -390,7 +382,6 @@ CHECKSUMS
   jekyll-theme-modernist (0.2.0) sha256=4be775bc5edd53864c5e40c000c34db0dfd82dac800cff50371ef11da66dfbcf
   jekyll-theme-primer (0.6.0) sha256=ce27282798217eb0957ba01ab3bf12996476348b625736fa8448f7a1b8a307b3
   jekyll-theme-slate (0.2.0) sha256=5e40909de712bbbefbc7a29f17c55bffa326c222f0a13ee1656229a7d43c3439
-  jekyll-theme-so-simple (3.2.0) sha256=7b19157e9fea6398f3675fb32b6cd23fa149892d15e8d9d69586b9ac1da605c9
   jekyll-theme-tactile (0.2.0) sha256=b7861b48aed5b2385d7a146b13f31cb6f37afe3107f4a6b93b1c932b2d242652
   jekyll-theme-time-machine (0.2.0) sha256=bc3490a7eccfc24ca671780c9d4f531500936a361690020b19defe6105d74fe2
   jekyll-titles-from-headings (0.5.3) sha256=77366754e361ea7b5d87881f5b1380835f5ce910c240a4d9ac2d7afe86d28481

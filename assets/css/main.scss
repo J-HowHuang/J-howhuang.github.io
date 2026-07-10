@@ -1,0 +1,116 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+@charset "utf-8";
+
+
+
+/* Light */
+@font-face {
+  font-family: 'GenSekiGothic';
+  src: url('{{ "/assets/fonts/GenSekiGothic2TW-L.otf" | relative_url }}') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'GenSekiGothic';
+  src: url('{{ "/assets/fonts/GenSekiGothic2TW-R.otf" | relative_url }}') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'GenSekiGothic';
+  src: url('{{ "/assets/fonts/GenSekiGothic2TW-M.otf" | relative_url }}') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'GenSekiGothic';
+  src: url('{{ "/assets/fonts/GenSekiGothic2TW-B.otf" | relative_url }}') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Heavy */
+@font-face {
+  font-family: 'GenSekiGothic';
+  src: url('{{ "/assets/fonts/GenSekiGothic2TW-H.otf" | relative_url }}') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Extra Light */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-EL.otf" | relative_url }}') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Light */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-L.otf" | relative_url }}') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-R.otf" | relative_url }}') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-M.otf" | relative_url }}') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Semi-Bold */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-SB.otf" | relative_url }}') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-B.otf" | relative_url }}') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Heavy */
+@font-face {
+  font-family: 'GenRyuMin';
+  src: url('{{ "/assets/fonts/GenRyuMin2TW-H.otf" | relative_url }}') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+// 1. Try common theme variable names (Check your theme's docs to see exactly which one it uses):
+$serif-font-family: "GenRyuMin", serif;
+$sans-serif-font-family: 'GenSekiGothic', sans-serif;
+
+$base-font-family: $sans-serif-font-family;
+$headline-font-family: $sans-serif-font-family;
+$title-font-family: $serif-font-family;
+$description-font-family: $serif-font-family;
+$meta-font-family: $serif-font-family;
+
+@import "so-simple";
