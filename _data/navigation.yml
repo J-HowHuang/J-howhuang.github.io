@@ -2,5 +2,7 @@
   url: /
 - title: 系列
   url: /categories
-- title: 起源
+- title: 舊文
+  url: /archive/
+- title: 部落格的序
   url: /intro/

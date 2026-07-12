@@ -50,20 +50,12 @@ feed:
   path: atom.xml
 
 collections:
-  life_in_us:
+  archive:
     output: true
     permalink: /:collection/:path/
-    order:
-      - intro.md
-      - japan_1.md
-      - japan_2.md
-      - japan_3.md
-      - japan_4.md
-      - school_1.md
-      - school_2.md
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
+# paginate: 5
 # paginate_path: /page:num/
 
 # Search
@@ -102,11 +94,10 @@ defaults:
       share: false
   # Recipe defaults
   - scope:
-      path: "_life_in_us"
-      type: life_in_us
+      path: "_archive"
+      type: archive
     values:
       layout: post
-      comments: true
       share: false
 # Site Author
 author:
