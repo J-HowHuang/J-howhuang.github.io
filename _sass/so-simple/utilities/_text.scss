@@ -46,3 +46,8 @@
 .small {
   font-size: 80%;
 }
+
+html {
+  /* Enables automatic spacing between CJK and Latin/numeric characters */
+  text-autospace: normal;
+}
