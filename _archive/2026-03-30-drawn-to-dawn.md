@@ -15,7 +15,7 @@ Ina 和 Kiara，性格和形象兩極，卻又互補。我想不到 Hololive 還
 信片（打包行李時才後悔沒有特地畫演唱會主題的來發送）
 
 <figure class="align-center">
-  <img src="/images/image-10.png" alt="alt text">
+  <img src="/images/image-10.jpg" alt="alt text">
 </figure>
 
 能在城市裡遇見其他粉絲的感覺真的很美好。不過隨著越接近會場，粉絲的密度也越高，也
@@ -28,7 +28,7 @@ Ina 和 Kiara，性格和形象兩極，卻又互補。我想不到 Hololive 還
 
 
 <figure class="align-center">
-  <img src="/images/image-11.png" alt="alt text">
+  <img src="/images/image-11.jpg" alt="alt text">
   <figcaption>天氣熱的很</figcaption>
 </figure>
 
@@ -42,17 +42,17 @@ Ina 和 Kiara，性格和形象兩極，卻又互補。我想不到 Hololive 還
 
 
 <figure class="align-center">
-  <img src="/images/image-12.png" alt="alt text">
+  <img src="/images/image-12.jpg" alt="alt text">
   <figcaption>發餅乾</figcaption>
 </figure>
 
 
 <figure class="align-center">
-  <img src="/images/image-13.png" alt="alt text">
+  <img src="/images/image-13.jpg" alt="alt text">
 </figure>
 
 <figure class="align-center">
-  <img src="/images/image-14.png" alt="alt text">
+  <img src="/images/image-14.jpg" alt="alt text">
   <figcaption>俺のイナ祭壇</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Ina 和 Kiara，性格和形象兩極，卻又互補。我想不到 Hololive 還
 
 
 <figure class="align-center">
-  <img src="/images/image-15.png" alt="alt text">
+  <img src="/images/image-15.jpg" alt="alt text">
   <figcaption>KFP 路隊</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Ina 和 Kiara，性格和形象兩極，卻又互補。我想不到 Hololive 還
 
 
 <figure class="align-center">
-  <img src="/images/image-16.png" alt="alt text">
+  <img src="/images/image-16.jpg" alt="alt text">
 </figure>
 
 幸運的是我很早就來排隊所以及時入場，不幸的是我站到厄介區前面
@@ -109,7 +109,7 @@ kodachi 約好了要再見面。
 
 
 <figure class="align-center">
-  <img src="/images/image-17.png" alt="alt text">
+  <img src="/images/image-17.jpg" alt="alt text">
 </figure>
 
 然後我是笨蛋，我竟然只買了 Day 1 的票
@@ -144,7 +144,7 @@ KODACHI!!! 的 Ina。
 
 
 <figure class="align-center">
-  <img src="/images/image-18.png" alt="alt text">
+  <img src="/images/image-18.jpg" alt="alt text">
 </figure>
 
 
@@ -153,5 +153,5 @@ KODACHI!!! 的 Ina。
 
 放個 Ina 鎮樓
 <figure class="align-center">
-  <img src="/images/image-19.png" alt="alt text">
+  <img src="/images/image-19.jpg" alt="alt text">
 </figure>
