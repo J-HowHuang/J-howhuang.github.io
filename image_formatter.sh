@@ -16,6 +16,7 @@ fi
 python3 - "$1" << 'EOF'
 import sys
 import re
+import os
 
 file_path = sys.argv[1]
 
@@ -24,9 +25,24 @@ with open(file_path, 'r', encoding='utf-8') as f:
     content = f.read()
 
 def sanitize_path(img_path):
-    """Ensures the path starts with a single '/' relative to execution root."""
+    """Ensures the path starts with a single '/' relative to execution root and removes trailing underscores from the filename."""
     cleaned = img_path.strip()
     cleaned = re.sub(r'^[./]+', '', cleaned)
+    
+    # Split directory and filename to handle trailing underscores in the filename itself
+    dirname, filename = os.path.split(cleaned)
+    name, ext = os.path.splitext(filename)
+    
+    # Remove trailing underscores from the base name
+    name = re.sub(r'_+$', '', name)
+    
+    # Reassemble filename and path
+    cleaned_filename = f"{name}{ext}"
+    cleaned = os.path.join(dirname, cleaned_filename) if dirname else cleaned_filename
+    
+    # Normalize backslashes if running on Windows just in case, though usually forward slashes are preferred for web/markdown
+    cleaned = cleaned.replace('\\', '/')
+    
     return f"/{cleaned}"
 
 # Match markdown images and the immediate next line if it's text
@@ -66,3 +82,4 @@ with open(file_path, 'w', encoding='utf-8') as f:
     f.write(final_output)
 
 print(f"Successfully updated '{file_path}' in-place.")
+EOF
