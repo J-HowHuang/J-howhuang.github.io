@@ -29,7 +29,7 @@ tags:
 向他們道別後，我回到我的電腦前繼續寫作。為了重新書寫我三年前剛來到美國的經驗，我花時間回想過去、花時間組織文字，總覺得這些體驗好久沒有湧現過了。
 
 <figure class="align-center">
-  <img src="/images/IMG_0428.PNG" alt="alt text">
+  <img src="/images/IMG_0428.jpg" alt="alt text">
   <figcaption>Dale和Gordon</figcaption>
 </figure>
 
@@ -84,11 +84,11 @@ tags:
 </figure>
 
 <figure class="align-center">
-  <img src="/images/_DSC0498.JPG" alt="alt text">
+  <img src="/images/DSC0498.JPG" alt="alt text">
 </figure>
 
 <figure class="align-center">
-  <img src="/images/_DSC0520.JPG" alt="alt text">
+  <img src="/images/DSC0520.JPG" alt="alt text">
   <figcaption>這班列車每幾個小時會在到站後休息久一些，為了組員交接，也是為了給車上的乘客放煙</figcaption>
 </figure>
 
